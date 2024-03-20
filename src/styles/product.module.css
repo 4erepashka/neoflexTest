@@ -1,0 +1,59 @@
+.wrapper{
+    width: 350px;
+    height: 407px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.descr{
+    width: 310.04px;
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 21.96px;
+}
+
+.name{
+    font-family: "Montserrat", sans-serif;
+    font-size: 17;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.price{
+    font-family: "Montserrat", sans-serif;
+    font-size: 17;
+    width: 59px;
+    font-weight: 600;
+    margin-top: 15px;
+    color: #FFA542;
+}
+.rate{
+    display: flex;
+    justify-content: space-between;
+    width: 60.33px;
+    height: 21.97px;
+    margin-left: 21.96px;
+}
+.button{
+    font-family: "Montserrat", sans-serif;
+    font-size: 17;
+    width: 65px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: -21.96px;
+    margin-left: 267px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+}
+
+.imgWrapper{
+    width: 219.61px;
+    height: 237px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
