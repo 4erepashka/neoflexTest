@@ -32,10 +32,10 @@ function App() {
     <div className="App">
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<MainPage />}>
+            <Route path="/neoflexTest" element={<MainPage />}>
               <Route index element={<Catalog handler={basketHadler} />} />
               <Route
-                path="/basket"
+                path="/neoflexTest/basket"
                 element={
                   <Basket
                     basketItems={basketData}

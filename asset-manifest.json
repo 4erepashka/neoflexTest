@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1cd61e4.css",
-    "main.js": "/static/js/main.ec116d6d.js",
-    "static/media/c_03.png": "/static/media/c_03.550f390560a3d8cbd0ac.png",
-    "static/media/c_06.png": "/static/media/c_06.ab08cc2d6de451e264b5.png",
-    "static/media/c_05.png": "/static/media/c_05.746766f4e264e6d731c5.png",
-    "static/media/c_01.png": "/static/media/c_01.de6100077f82bfc39145.png",
-    "static/media/c_04.png": "/static/media/c_04.f73b2c97425ad92df816.png",
-    "static/media/c_02.png": "/static/media/c_02.334ec56e2b4984f9aa49.png",
-    "index.html": "/index.html",
-    "main.a1cd61e4.css.map": "/static/css/main.a1cd61e4.css.map",
-    "main.ec116d6d.js.map": "/static/js/main.ec116d6d.js.map"
+    "main.css": "/neoflexTest/static/css/main.a1cd61e4.css",
+    "main.js": "/neoflexTest/static/js/main.8141cc70.js",
+    "static/media/c_03.png": "/neoflexTest/static/media/c_03.550f390560a3d8cbd0ac.png",
+    "static/media/c_06.png": "/neoflexTest/static/media/c_06.ab08cc2d6de451e264b5.png",
+    "static/media/c_05.png": "/neoflexTest/static/media/c_05.746766f4e264e6d731c5.png",
+    "static/media/c_01.png": "/neoflexTest/static/media/c_01.de6100077f82bfc39145.png",
+    "static/media/c_04.png": "/neoflexTest/static/media/c_04.f73b2c97425ad92df816.png",
+    "static/media/c_02.png": "/neoflexTest/static/media/c_02.334ec56e2b4984f9aa49.png",
+    "index.html": "/neoflexTest/index.html",
+    "main.a1cd61e4.css.map": "/neoflexTest/static/css/main.a1cd61e4.css.map",
+    "main.8141cc70.js.map": "/neoflexTest/static/js/main.8141cc70.js.map"
   },
   "entrypoints": [
     "static/css/main.a1cd61e4.css",
-    "static/js/main.ec116d6d.js"
+    "static/js/main.8141cc70.js"
   ]
 }
