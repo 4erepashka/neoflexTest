@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+.wrapper {
+  width: 1110px;
+  min-height: calc(100vh - 260px);
+  margin: 0 auto;
+  margin-top: 29px;
+  display: grid;
+  grid-template-columns: repeat(12, 65px);
+  grid-auto-rows: min-content;
+  gap: 30px;
+  row-gap: 0px;
+}
+
+.title {
+  grid-row-start: 1;
+  font-family: Montserrat;
+  color: #1c1c27;
+  height: 24px;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  justify-self: start;
+  font-weight: 600;
+}
+
+.result {
+  width: 348.98px;
+  height: 114px;
+  background-color: #fff;
+  border-radius: 30px;
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 2;
+  display: grid;
+  grid-template-columns: repeat(4, 65px);
+  gap: 30px;
+  row-gap: 0px;
+  margin-top: 20px;
+}
+
+.priceTitle {
+  font-family: Montserrat;
+  text-transform: uppercase;
+  grid-column-start: 1;
+  margin-left: 21.43px;
+  margin-top: 21px;
+  color: #000;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.price {
+  grid-column-start: 4;
+  margin-right: 16.33px;
+  font-family: Montserrat;
+  color: #000;
+  font-weight: 600;
+  font-size: 15px;
+  min-width: 58px;
+  margin-top: 21px;
+  margin-left: -25px;
+}
+
+.order {
+  grid-column-start: 1;
+  margin-top: 15px;
+  background-color: #101010;
+  color: #fff;
+  font-family: Montserrat;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 348.98px;
+  height: 65px;
+  text-align: center;
+  transition: all 0.4s linear;
+  text-decoration: none;
+}
+.order:hover {
+  background-color: #ffa542;
+}
+
+.back{
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 3;
+}
+.back:hover svg{
+
+  fill: #ffa542;
+}
+.back svg{
+  transition: fill 1s ease-in-out;
+}
+
+.empty{
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 54px;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 3 ;
+  justify-self: start;
+  margin-top: 21px;
+  color: #818181;
+  display: flex;
+  text-align: left;
+}

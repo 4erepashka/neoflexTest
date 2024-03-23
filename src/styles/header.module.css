@@ -1,29 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-.wrapper{
-    width: 1109.89px;
-    height: 60px;
-    display: grid;
-    grid-template-columns: repeat(12, 65px);
-    column-gap: 20px;
-    justify-content: center;
-    background-color: #EAEAEA;
-    margin: 0 auto;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@keyframes transformBasket {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
-.logo{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    font-family: "Montserrat", sans-serif;
-    font-size: 25;
-    font-weight: 700;
-    margin-top: 15px;
+@keyframes transformHeart {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: translateX(1);
+  }
 }
 
-.h{
-    grid-column-start: 11;
-    margin-left: 10px;
+
+.wrapper {
+  width: 1109.89px;
+  height: 60px;
+  display: grid;
+  grid-template-columns: repeat(12, 65px);
+  column-gap: 20px;
+  justify-content: center;
+  background-color: #eaeaea;
+  margin: 0 auto;
 }
-.basket{
-    margin-top: 15px;
-    grid-column-start: 12;
-    justify-self: center;
+.logo {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.h {
+  grid-column-start: 11;
+  margin-left: 10px;
+  position: relative;
+}
+.basket {
+  margin-top: 15px;
+  grid-column-start: 12;
+  justify-self: center;
+  position: relative;
+}
+.h svg path {
+  transition: fill 0.4s ease;
+}
+.basket svg path {
+  transition: fill 0.4s ease;
+}
+.basket:hover svg path {
+  fill: #000;
+}
+.basket:hover {
+  transform-origin: 0% 50%;
+  animation: transformBasket 3s linear infinite;
+}
+.basket:enabled {
+  transform-origin: 0% 50%;
+  animation: transformBasket 3s linear infinite;
+}
+
+.h:hover svg path {
+  fill: #000;
+}
+.h:hover {
+  animation: transformHeart 2s linear infinite;
+}
+
+.circle,
+.circleH {
+  position: absolute;
+  text-decoration: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ffa542;
+  top: -6px;
+  left: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15;
+  font-weight: 400;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.circleH {
+  top: 11px;
+  left: 37px;
 }

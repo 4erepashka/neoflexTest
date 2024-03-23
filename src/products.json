@@ -3,7 +3,7 @@
       "id": 1,
       "type": "wired",
       "title": "Apple BYZ S852I",
-      "price": 2927,
+      "price": "2 927",
       "img": "c_01",
       "rate": 4.7
     },
@@ -11,7 +11,7 @@
       "id": 2,
       "type": "wired",
       "title": "Apple EarPods",
-      "price": 2327,
+      "price": "2 327",
       "img": "c_02",
       "rate": 4.5
     },
@@ -19,7 +19,7 @@
       "id": 3,
       "type": "wired",
       "title": "Apple EarPods",
-      "price": 2327,
+      "price": "2 327",
       "img": "c_03",
       "rate": 4.5
     },
@@ -27,7 +27,7 @@
       "id": 4,
       "type": "wired",
       "title": "Apple BYZ S852I",
-      "price": 2927,
+      "price": "2 927",
       "img": "c_01",
       "rate": 4.7
     },
@@ -35,7 +35,7 @@
       "id": 5,
       "type": "wired",
       "title": "Apple EarPods",
-      "price": 2327,
+      "price": "2 327",
       "img": "c_02",
       "rate": 4.5
     },
@@ -43,7 +43,7 @@
       "id": 6,
       "type": "wired",
       "title": "Apple EarPods",
-      "price": 2327,
+      "price": "2 327",
       "img": "c_03",
       "rate": 4.5
     },
@@ -51,7 +51,7 @@
       "id": 7,
       "type": "wireless",
       "title": "Apple AirPods",
-      "price": 9527,
+      "price": "9 527",
       "img": "c_04",
       "rate": 4.7
     },
@@ -59,7 +59,7 @@
       "id": 8,
       "type": "wireless",
       "title": "GERLAX GH-04",
-      "price": 6527,
+      "price": "6 527",
       "img": "c_05",
       "rate": 4.7
     },
@@ -67,7 +67,7 @@
       "id": 9,
       "type": "wireless",
       "title": "BOROFONE BO4",
-      "price": 7527,
+      "price": "7 527",
       "img": "c_06",
       "rate": 4.7
     }

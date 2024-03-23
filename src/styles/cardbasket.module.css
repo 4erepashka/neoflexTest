@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.wrapper {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  align-self: start;
+  margin-top: 13px;
+  width: 633px;
+  height: 218px;
+  background-color: #fff;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: repeat(7, 65px);
+  column-gap: 30px;
+  filter: drop-shadow(0 0 20mm rgba(0, 0, 0, .1));
+}
+
+.img {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-self: start;
+  width: 146.53px;
+  height: 136px;
+  grid-row-start: 1;
+  margin-top: 18px;
+  margin-left: 18.76px;
+}
+
+.title {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  justify-self: start;
+  margin-top: 76px;
+  grid-row-start: 1;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25;
+  font-size: 17px;
+  font-weight: 500;
+  color: #1c1c27;
+  height: 21px;
+}
+
+.price {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  justify-self: start;
+  grid-row-start: 1;
+  margin-top: 109px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #aaaaaa;
+}
+
+.counter {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-self: start;
+  margin-left: 16.41px;
+  width: 125.43px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  width: 35.17px;
+  height: 30px;
+  background-color: #ffce7f;
+  border-radius: 50%;
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.value {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+}
+.delete {
+  grid-column-start: 7;
+  grid-row-start: 1;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.imgWrapper{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-self: start;
+  margin-left:18.76px;
+  margin-top: 18px;
+  width: 146.53px;
+  height: 136px;
+}
+
+.result{
+  grid-column-start: 7;
+  width: 100.81px;
+  display: flex;
+  justify-content: start;
+  margin-left: -25px;
+  height: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}

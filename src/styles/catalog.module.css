@@ -1,46 +1,49 @@
-.wrapper{
-    margin: 0  auto;
-    margin-top: 15px;
+
+.wrapper {
+    margin: 0 auto;
+    margin-top: 28px;
     width: 1110px;
     height: 1372px;
-}
-
-.cardsEarPods{
+  }
+  
+  .cardsEarPods {
     display: grid;
     grid-template-columns: repeat(12, 65px);
     column-gap: 30px;
-    width: 100%;  
-}
-
-.cardsEarPodsTitle{
+    width: 100%;
+  }
+  
+  .cardsEarPodsTitle {
     grid-column-start: 1;
     grid-column-end: 2;
     font-family: "Montserrat", sans-serif;
     font-size: 20;
     font-weight: 600;
-    color: #8383;
-}
-
-.cardsEarPodswireless{
+    color: #838383;
+  }
+  
+  .cardsEarPodswireless {
     display: grid;
+    
     grid-template-columns: repeat(12, 65px);
     column-gap: 30px;
-    width: 100%;  
-}
-
-.cardsEarPodswirelessTitle{
+    width: 100%;
+  }
+  
+  .cardsEarPodswirelessTitle {
     grid-column-start: 1;
     grid-column-end: 5;
+    justify-self: start;
     font-family: "Montserrat", sans-serif;
     font-size: 20;
     font-weight: 600;
-    color: #8383;
+    color: #838383;
     margin-top: 28.35px;
-}
-.cards{
-    grid-row-start: 2 ;
+  }
+  .cards {
+    grid-row-start: 2;
     width: 1110px;
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
-}
+  }
+  

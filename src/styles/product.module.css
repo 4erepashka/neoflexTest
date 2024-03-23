@@ -1,59 +1,92 @@
-.wrapper{
+.wrapper {
     width: 350px;
     height: 407px;
-    border-radius: 30px;
-    background-color: #FFFFFF;
+    border-radius: 20px;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-.descr{
+    margin-top: 30.65px;
+    filter: drop-shadow(0 0 20mm rgba(0, 0, 0, .1));
+  }
+ 
+  .descr {
     width: 310.04px;
     height: 74px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-left: 21.96px;
-}
-
-.name{
+  }
+  
+  .name {
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 54.36px;
+  }
+  .price {
     font-family: "Montserrat", sans-serif;
     font-size: 17;
+    width: 62px;
     font-weight: 600;
-    margin-top: 15px;
-}
-.price{
-    font-family: "Montserrat", sans-serif;
-    font-size: 17;
-    width: 59px;
-    font-weight: 600;
-    margin-top: 15px;
-    color: #FFA542;
-}
-.rate{
+    margin-top: 54.36px;
+    color: #ffa542;
+  }
+  .rate {
     display: flex;
     justify-content: space-between;
     width: 60.33px;
     height: 21.97px;
+    margin-top: 24.96px;
     margin-left: 21.96px;
-}
-.button{
     font-family: "Montserrat", sans-serif;
-    font-size: 17;
+    font-size: 17px;
+    font-weight: 600;
+    color:#838383
+  }
+  .button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
     width: 65px;
     font-weight: 600;
     color: #000000;
     margin-top: -21.96px;
     margin-left: 267px;
     border: none;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     cursor: pointer;
-}
-
-.imgWrapper{
+  }
+  .button:hover {
+    transform: translateY(-2px);
+  }
+  
+  .imgWrapper {
     width: 219.61px;
     height: 237px;
     margin: 0 auto;
     display: flex;
+    margin-top: 15.07px;
     justify-content: center;
-}
+  }
+  
+  .inBasket{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    width: 120px;
+    font-weight: 600;
+    color: #818181;
+    margin-top: -21.96px;
+    margin-left: 230px;
+    border: none;
+  }
+  .inBasketRemove{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    width: 120px;
+    font-weight: 400;
+    color: #818181;
+    margin-top: -21.96px;
+    margin-left: 240px;
+    border: none;
+    cursor: pointer;
+  }

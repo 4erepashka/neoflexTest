@@ -1,9 +1,8 @@
 import React from "react";
 import styles from '..//styles/product.module.css'
 const images = require.context('../img', true)
-export default function Product({ data, handler }){
+export default function Product({ data, handler, inBasketFlag, deleteBasket }){
     function handlerClick(event) {
-        
         handler(data.id);
       }
     return(
@@ -21,7 +20,7 @@ export default function Product({ data, handler }){
                         </svg>
                         <div className={styles.rateValue}>{data.rate}</div>
             </div>
-            <button onClick={handlerClick} className={styles.button}>Купить</button>
+           {(inBasketFlag.length !==0 && inBasketFlag.some(item => item.id === data.id)) ?<div onClick={()=>deleteBasket(data.id)} className={styles.inBasketRemove}>убрать</div>:<button onClick={handlerClick} className={styles.button}>Купить</button>}
         </div>
     )
 }
